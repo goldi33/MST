@@ -1,0 +1,61 @@
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\bin\Debug\powergui.exe.config
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\bin\Debug\powergui.exe
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\bin\Debug\powergui.pdb
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.csproj.AssemblyReference.cache
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.csproj.SuggestedBindingRedirects.cache
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\MainWindow.g.cs
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\App.g.cs
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui_MarkupCompile.cache
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui_MarkupCompile.lref
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\MainWindow.baml
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.g.resources
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.Properties.Resources.resources
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.csproj.GenerateResource.cache
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.csproj.CoreCompileInputs.cache
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.exe
+C:\Users\samuel.pasquarelli\Pictures\Visual Studio\powergui\powergui\obj\Debug\powergui.pdb
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\bin\Debug\powergui.exe.config
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\bin\Debug\powergui.exe
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\bin\Debug\powergui.pdb
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.csproj.AssemblyReference.cache
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.csproj.SuggestedBindingRedirects.cache
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\MainWindow.g.cs
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\App.g.cs
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui_MarkupCompile.cache
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui_MarkupCompile.lref
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\MainWindow.baml
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.g.resources
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.Properties.Resources.resources
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.csproj.GenerateResource.cache
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.csproj.CoreCompileInputs.cache
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.exe
+C:\Users\samuel.pasquarelli\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3\powergui_v1.3\powergui\obj\Debug\powergui.pdb
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\bin\Debug\powergui.exe.config
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\bin\Debug\powergui.exe
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\bin\Debug\powergui.pdb
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.csproj.AssemblyReference.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.csproj.SuggestedBindingRedirects.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\MainWindow.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\App.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui_MarkupCompile.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui_MarkupCompile.lref
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\MainWindow.baml
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.g.resources
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.Properties.Resources.resources
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.csproj.GenerateResource.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.csproj.CoreCompileInputs.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.exe
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.3 - Kopie\powergui_v1.3\powergui\obj\Debug\powergui.pdb
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\powergui.csproj.AssemblyReference.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\powergui.csproj.SuggestedBindingRedirects.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\MainWindow.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\Window1.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\Window2 - Kopieren - Kopieren - Kopieren.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\Window2 - Kopieren - Kopieren.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\Window2 - Kopieren.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\Window2.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\App.g.cs
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\powergui_MarkupCompile.cache
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\powergui_MarkupCompile.lref
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\powergui.exe
+C:\Users\sampa\OneDrive - TBZ\01-Backups\Dokumente\3 Lehrjahr\M122\LB 2\powergui_v1.9\powergui_v1.9\powergui\obj\Debug\powergui.pdb

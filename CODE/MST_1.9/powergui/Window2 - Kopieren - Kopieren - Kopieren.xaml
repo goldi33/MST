@@ -1,0 +1,24 @@
+﻿<Window x:Class="powergui.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:powergui"
+        mc:Ignorable="d"
+        Title="SMT  -  Lokalen Benutzer löschen" Height="165" Width="379" ResizeMode="NoResize" Icon="C:\Users\samuel.pasquarelli\AppData\Roaming\SMT\icon\smt_icon.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FFCDE5FF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Wenn du dich entscheidest einen Benutzer zu löschen," HorizontalAlignment="Left" Margin="38,41,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnWindow5Abrechen" Content="Abrechen" HorizontalAlignment="Left" Margin="176,98,0,0" VerticalAlignment="Top" Width="78" Height="20" Cursor="Hand" IsCancel="True"/>
+        <Button x:Name="btnWindow5Bestätigen" Content="Bestätigen" HorizontalAlignment="Left" Margin="259,98,0,0" VerticalAlignment="Top" Width="78" Height="20" Cursor="Hand" Foreground="#FFFF1313"/>
+        <Label Content="Ausgewählter Benutzer:" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWindow5Benutzername" HorizontalAlignment="Left" Margin="177,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" IsEnabled="False"/>
+        <Label Content="kann dies nicht mehr rückgängig gemacht werden." HorizontalAlignment="Left" Margin="38,67,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,133 @@
+﻿<Window x:Class="powergui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:powergui"
+        mc:Ignorable="d"
+        Title="SMT  -  Samuel's Multi Tool " Height="500" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="https://i.ibb.co/TrMY167/smt-icon.png">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="411,188,0,0" VerticalAlignment="Top" Height="50" Width="185"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="60,121,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="60,141,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="60,161,0,0" VerticalAlignment="Top"/>
+        <TabControl>
+            <TabItem Header="Menu" Foreground="#FF3394FD">
+                <Grid Background="#FFCDE5FF">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="91*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="662*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnWeitereInformationen" Grid.Column="1" Content="Weitere Informationen" HorizontalAlignment="Left" Height="28" Margin="8,399,0,0" VerticalAlignment="Top" Width="140" Cursor="Hand" Grid.ColumnSpan="4"/>
+                    <Label Content="Multi Tool by Samuel" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="396" FontSize="36" Grid.Column="2"/>
+                    <Label Grid.Column="2" Content="Dieses Tool wurde von Samuel für das Modul 122 gebaut. Es verfügt über einige " HorizontalAlignment="Left" Margin="0,111,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="438" Height="26"/>
+                    <Label Grid.Column="2" Content="Optionen - von auslesen von Computer Informationen, Netzwerk Einstellungen " HorizontalAlignment="Left" Margin="0,137,0,0" VerticalAlignment="Top" Width="438" Grid.ColumnSpan="3"/>
+                    <Label Grid.Column="2" Content="und Lokale Benutzer Verwaltung." HorizontalAlignment="Left" Margin="0,163,0,0" VerticalAlignment="Top" Width="438" Grid.ColumnSpan="3"/>
+                    <Label Grid.Column="4" Content="v1.9 22012023" HorizontalAlignment="Left" Margin="554,405,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+                    <Label Grid.Column="2" Content="Das Programm befindet sich in der Beta und wird zurzeit weiterentwickelt." HorizontalAlignment="Left" Margin="0,189,0,0" VerticalAlignment="Top" Width="438" Grid.ColumnSpan="3"/>
+                    <Image x:Name="image" Grid.Column="4" HorizontalAlignment="Left" Height="300" Margin="337,0,0,0" VerticalAlignment="Top" Width="300" Source="https://i.ibb.co/18vZPsS/smt-image.png"/>
+                    <Button Grid.Column="2" Content="📋" HorizontalAlignment="Left" Margin="7,257,0,0" VerticalAlignment="Top" Width="18" Height="20" Cursor="Hand"/>
+                    <Label Grid.Column="2" Content="Drücke auf dieses &quot;Zwischenablage Symbol&quot; um direkt einen Text zu kopieren." HorizontalAlignment="Left" Margin="30,254,0,0" VerticalAlignment="Top" Width="438" Grid.ColumnSpan="3"/>
+                    <Label Grid.Column="2" Content="Legende:" HorizontalAlignment="Left" Margin="0,228,0,0" VerticalAlignment="Top" Width="438" Grid.ColumnSpan="3" FontWeight="Bold"/>
+                    <Button Grid.Column="2" Content="clear Content" HorizontalAlignment="Center" Margin="0,282,0,0" VerticalAlignment="Top" Width="78" Height="20" Cursor="Hand"/>
+                    <Label Grid.Column="2" Content="Mit dem Button &quot;clear Content&quot;, kannst du den Text in der Konsole löschen." HorizontalAlignment="Left" Margin="89,279,0,0" VerticalAlignment="Top" Width="438" Grid.ColumnSpan="3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Computer Informationen">
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White" Offset="0.003"/>
+                            <GradientStop Color="#FFCDE5FF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="23*"/>
+                        <ColumnDefinition Width="172*"/>
+                        <ColumnDefinition Width="441*"/>
+                        <ColumnDefinition Width="158*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Computer Name:" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtComputer" HorizontalAlignment="Left" Margin="138,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Height="20" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False"/>
+                    <Button x:Name="btnQuery" Content="Disk Space" HorizontalAlignment="Left" Margin="336,91,0,0" VerticalAlignment="Top" Height="29" Width="107" Grid.Column="2" Cursor="Hand" Grid.ColumnSpan="2" ToolTip="Rufe den freien Speicherplatz auf, über dass dein Gerät noch verfügt."/>
+                    <TextBox x:Name="txtResults" HorizontalAlignment="Left" Margin="16,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="476" Height="265" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False" ScrollViewer.CanContentScroll="True"/>
+                    <Button x:Name="btnHash" Content="Hash Code" HorizontalAlignment="Left" Margin="337,182,0,0" VerticalAlignment="Top" Height="30" Width="107" Grid.Column="2" Cursor="Hand" Grid.ColumnSpan="2" ToolTip="Rufe deinen Geräte Hash Code ab."/>
+                    <Button x:Name="btnSaveHash" Content="Save Hash Code" HorizontalAlignment="Left" Margin="213,361,0,0" VerticalAlignment="Top" Height="29" Width="107" Grid.Column="2" Visibility="Hidden" Cursor="Hand"/>
+                    <Label Content="Deine IP:" HorizontalAlignment="Left" Margin="60,34,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtIP" HorizontalAlignment="Left" Margin="138,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Height="20" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False"/>
+                    <Label Content="Domain:" HorizontalAlignment="Left" Margin="63,57,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtDomain" HorizontalAlignment="Left" Margin="138,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" Height="20" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False"/>
+                    <Button x:Name="btnComputerInfo" Content="Computer Specs" HorizontalAlignment="Left" Margin="337,135,0,0" VerticalAlignment="Top" Height="30" Width="107" Grid.Column="2" Cursor="Hand" Grid.ColumnSpan="2" ToolTip="Rufe deine Computer Spezifikationen ab."/>
+                    <Button x:Name="btnUsers" Content="Users" HorizontalAlignment="Left" Margin="337,228,0,0" VerticalAlignment="Top" Height="30" Width="107" Grid.Column="2" Cursor="Hand" Grid.ColumnSpan="2" ToolTip="Zeigt dir eine übersicht von allen Lokalen Benutzern."/>
+                    <Button x:Name="btnCopyComputerName" Grid.Column="2" Content="📋" HorizontalAlignment="Left" Margin="122,13,0,0" VerticalAlignment="Top" Cursor="Hand" ToolTip="Drücke auf dieses &quot;Zwischenablage Symbol&quot; um direkt einen Text zu kopieren."/>
+                    <Button x:Name="btnCopyIP" Grid.Column="2" Content="📋" HorizontalAlignment="Left" Margin="122,37,0,0" VerticalAlignment="Top" Cursor="Hand" ToolTip="Drücke auf dieses &quot;Zwischenablage Symbol&quot; um direkt einen Text zu kopieren."/>
+                    <Button x:Name="btnCopyDomain" Grid.Column="2" Content="📋" HorizontalAlignment="Left" Margin="122,60,0,0" VerticalAlignment="Top" Cursor="Hand" ToolTip="Drücke auf dieses &quot;Zwischenablage Symbol&quot; um direkt einen Text zu kopieren."/>
+                    <Button x:Name="btnClearContentComputer" Grid.Column="1" Content="clear Content" HorizontalAlignment="Left" Margin="17,361,0,0" VerticalAlignment="Top" Width="78" Height="19.96" Cursor="Hand" ToolTip="Mit dem Button &quot;clear Content&quot;, kannst du den Text in der Konsole löschen."/>
+                    <Button x:Name="btnCopyContentComputer" Grid.Column="1" Content="📋" HorizontalAlignment="Left" Margin="100,361,0,0" VerticalAlignment="Top" Width="17.95" Height="19.96" Cursor="Hand" ToolTip="Drücke auf dieses &quot;Zwischenablage Symbol&quot; um direkt einen Text zu kopieren."/>
+                    <Button x:Name="btnStartUpDateien" Content="Startup Dateien" HorizontalAlignment="Left" Margin="337,274,0,0" VerticalAlignment="Top" Height="30" Width="107" Grid.Column="2" Cursor="Hand" Grid.ColumnSpan="2" ToolTip="Zeigt dir alle Dateien an, die beim aufstarten des Computers im Hintergrund ausgeführt werden."/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Netzwerk Einstellungen">
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FFCDE5FF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="73*"/>
+                        <ColumnDefinition Width="688*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnRenewIP" Grid.Column="3" Content="renew Ip" HorizontalAlignment="Left" Margin="426,91,0,0" VerticalAlignment="Top" Width="106" Height="29" Cursor="Hand" ToolTip="Deine IP wird refresht, du verlierst möglicherweise deine Internetverbindung."/>
+                    <Button x:Name="btnWlanDeaktivieren" Grid.Column="3" Content="WLAN deaktivieren" HorizontalAlignment="Left" Margin="426,136,0,0" VerticalAlignment="Top" Width="106" Height="29" Cursor="Hand"/>
+                    <Button x:Name="btnWlanAktivieren" Grid.Column="3" Content="WLAN aktivieren" HorizontalAlignment="Left" Margin="426,182,0,0" VerticalAlignment="Top" Width="107" Height="29" Cursor="Hand"/>
+                    <TextBox x:Name="txtResultsNetwork" HorizontalAlignment="Left" Margin="6,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="476" Height="265" Grid.Column="2" Grid.ColumnSpan="2" IsEnabled="False"/>
+                    <Label Grid.Column="2" Content="Konsole Output:" HorizontalAlignment="Left" Margin="6,65,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="130"/>
+                    <Button x:Name="btnClearContentNetwork" Grid.Column="2" Content="clear Content" HorizontalAlignment="Left" Margin="7,361,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="78" Cursor="Hand" ToolTip="Mit dem Button &quot;clear Content&quot;, kannst du den Text in der Konsole löschen."/>
+                    <Button x:Name="btnCopyContentNetwork" Grid.Column="3" Content="📋" HorizontalAlignment="Left" Margin="17,361,0,0" VerticalAlignment="Top" Width="17.95" Height="19.96" Cursor="Hand" ToolTip="Drücke auf dieses &quot;Zwischenablage Symbol&quot; um direkt einen Text zu kopieren."/>
+                    <Button x:Name="btnNetzwerkAdapter" Grid.Column="3" Content="Netzwerk Adapter" HorizontalAlignment="Left" Margin="426,224,0,0" VerticalAlignment="Top" Width="107" Height="28" Cursor="Hand" ToolTip="Zeigt dir alle Netzwerkadapter an"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Lokale Benutzer">
+                <Grid>
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FFCDE5FF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="193*"/>
+                        <ColumnDefinition Width="568*"/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="comboboxusers" Grid.Column="2" HorizontalAlignment="Left" Margin="163,91,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+                    <Label Grid.Column="2" Content="Ausgewählter Benutzer:" HorizontalAlignment="Left" Margin="23,150,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtAusgewaelterBenutzer" Grid.Column="2" HorizontalAlignment="Left" Margin="163,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Grid.ColumnSpan="2"/>
+                    <Label Grid.Column="2" Content="Beschreibung:" HorizontalAlignment="Left" Margin="73,173,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtUserBeschreibung" Grid.Column="2" HorizontalAlignment="Left" Margin="163,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" IsEnabled="False" Height="80" Grid.ColumnSpan="2"/>
+                    <Label Grid.Column="2" Content="Aktiviert:" HorizontalAlignment="Left" Margin="101,258,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtUserStatus" Grid.Column="2" HorizontalAlignment="Left" Margin="163,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnUserDisable" Grid.Column="3" Content="Disable Account" HorizontalAlignment="Left" Margin="306,125,0,0" VerticalAlignment="Top" Width="106" Height="29" IsEnabled="False" Cursor="Hand" ToolTip="Benutzer deaktivieren"/>
+                    <Button x:Name="btnUserEnable" Grid.Column="3" Content="Enable Account" HorizontalAlignment="Left" Margin="306,159,0,0" VerticalAlignment="Top" Width="106" Height="29" IsEnabled="False" Cursor="Hand" ToolTip="Benutzer aktivieren"/>
+                    <Button x:Name="btnUserRemove" Grid.Column="3" Content="Benutzer löschen" HorizontalAlignment="Left" Margin="306,228,0,0" VerticalAlignment="Top" Width="106" Height="29" IsEnabled="False" Cursor="Hand"/>
+                    <Label Grid.Column="2" Content="Benutzer auswählen:" HorizontalAlignment="Left" Margin="39,88,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="btnUserCreate" Grid.Column="3" Content="Benutzer erstellen" HorizontalAlignment="Left" Margin="306,264,0,0" VerticalAlignment="Top" Width="106" Height="29" Cursor="Hand"/>
+                    <Button x:Name="btnUserRenameBeta" Grid.Column="3" Content="Rename Account" HorizontalAlignment="Left" Margin="306,193,0,0" VerticalAlignment="Top" Width="106" Height="29" Cursor="Hand" IsEnabled="False" ToolTip="Benutzer unbenennen"/>
+                    <Label Grid.Column="2" Content="Wähle zuerst einen Benutzer aus um fortfahren zu können!" HorizontalAlignment="Left" Margin="163,57,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

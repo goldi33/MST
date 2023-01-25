@@ -1,0 +1,35 @@
+﻿<Window x:Class="powergui.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:powergui"
+        mc:Ignorable="d"
+        Title="SMT  -  Create User" Height="331" Width="468" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="C:\Users\samuel.pasquarelli\AppData\Roaming\SMT\icon\smt_icon.png">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FFCDE5FF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="txtWindow2Benutzername" HorizontalAlignment="Left" Margin="154,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
+        <Label Content="Benutzername:" HorizontalAlignment="Left" Margin="60,26,0,0" VerticalAlignment="Top"/>
+        <Label Content="Beschreibung:" HorizontalAlignment="Left" Margin="65,174,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWindow2UserBeschreibung" HorizontalAlignment="Left" Margin="155,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" Height="80"/>
+        <Button x:Name="btnWindow2BenutzerAnlegen" Content="Benutzer anlegen" HorizontalAlignment="Left" Margin="215,259,0,0" VerticalAlignment="Top" Cursor="Hand"/>
+        <Button x:Name="btnWindow2Abrechen" Content="Abrechen" HorizontalAlignment="Left" Margin="155,259,0,0" VerticalAlignment="Top" IsCancel="True" Cursor="Hand"/>
+        <Button x:Name="btnWindow2PWdeaktiviert" Content="" HorizontalAlignment="Left" Margin="155,67,0,0" VerticalAlignment="Top" Width="15" Height="15" Background="White" Cursor="Hand"/>
+        <Button x:Name="btnWindow2PWaktiviert" Content="✓" HorizontalAlignment="Left" Margin="155,67,0,0" VerticalAlignment="Top" Width="15" Height="15" Background="White" FontWeight="Bold" FontSize="10" Cursor="Hand"/>
+        <Button x:Name="btnWindow2BenutzerDeaktiviert" Content="" HorizontalAlignment="Left" Margin="155,150,0,0" VerticalAlignment="Top" Width="15" Height="15" Background="White" Cursor="Hand"/>
+        <Button x:Name="btnWindow2BenutzerAktiviert" Content="✓" HorizontalAlignment="Left" Margin="155,150,0,0" VerticalAlignment="Top" Width="15" Height="15" Background="White" FontWeight="Bold" FontSize="10" Cursor="Hand"/>
+        <Label x:Name="txtWindow2Passwort11" Content="Passwort eingeben:" HorizontalAlignment="Left" Margin="38,83,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="txtWindow2Passwort22" Content="Passwort erneut eingeben:" HorizontalAlignment="Left" Margin="-1,106,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="txtWindow2PWaktiviert" Content="Passwort ist aktiviert" HorizontalAlignment="Left" Margin="170,61,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="txtWindow2BenutzerAktiviert" Content="Benutzer ist aktiviert" HorizontalAlignment="Left" Margin="170,145,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWindow2PasswortStatus" HorizontalAlignment="Left" Margin="393,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" IsEnabled="True" Text="1" Visibility="Hidden"/>
+        <TextBox x:Name="txtWindow2BenutzerStatus" HorizontalAlignment="Left" Margin="393,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="29" IsEnabled="True" Text="1" Visibility="Hidden"/>
+        <PasswordBox x:Name="txtWindow2Passwort1" HorizontalAlignment="Left" Margin="155,87,0,0" VerticalAlignment="Top" Width="218" Password=""/>
+        <PasswordBox x:Name="txtWindow2Passwort2" HorizontalAlignment="Left" Margin="155,110,0,0" VerticalAlignment="Top" Width="218" Password=""/>
+    </Grid>
+</Window>
